@@ -2,8 +2,8 @@ import React from "react";
 import '../root/style.css'
 import { Button } from "./Button";
 import "./HeroSection.css";
-import video from '../assets/videos/video-2.mp4'
-
+// import video from '../assets/videos/video-2.mp4'
+import video from '../assets/videos/video.mp4'
 
 export const HeroSection = () => {
   return (

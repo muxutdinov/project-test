@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { Prodact } from "../components/pages/Prodact";
+import { Services } from "../components/pages/Services";
+import { SignUp } from "../components/pages/SignUp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 import Home from "../components/pages/Home";
@@ -11,6 +14,9 @@ export const Root = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/products" exact component={Prodact} />
+          <Route path="/sign-up" exact component={SignUp} />
         </Switch>
       </Router>
     </>
